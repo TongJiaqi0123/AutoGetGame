@@ -3,7 +3,7 @@ name: fuck me till the daylight # 修改你的名称
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 0 ? * 3,7 *" # 修改你的定时配置
+    - cron: "29 21 * * 2,6" # 修改你的定时配置
 
 jobs:
   setup:
